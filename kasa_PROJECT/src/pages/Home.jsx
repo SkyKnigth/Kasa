@@ -1,4 +1,4 @@
-import logements from "../data/logements.json";
+import logements from "../datas/logements.json";
 import Card from "../components/Card";
 import "../styles/Home.css";
 
