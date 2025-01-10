@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import logements from "../data/logements.json";
+import logements from "../datas/logements.json";
 import Carousel from "../components/Carousel";
 import Collapse from "../components/Collapse";
 import "../styles/Logement.css";
