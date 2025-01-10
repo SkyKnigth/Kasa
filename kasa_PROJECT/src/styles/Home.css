@@ -1,0 +1,16 @@
+.home {
+    padding: 2rem;
+  }
+  
+  .banner {
+    background-color: #fff;
+    text-align: center;
+    padding: 6px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  

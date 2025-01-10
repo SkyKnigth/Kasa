@@ -1,0 +1,16 @@
+.not-found {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  /*.not-found h1 {}*/
+  
+  .not-found-link {
+    margin-top: 2px;
+    display: inline-block;
+    padding: 2px 3px;
+    background-color: #ff6060;
+    color: white;
+    border-radius: 4px;
+  }
+  
