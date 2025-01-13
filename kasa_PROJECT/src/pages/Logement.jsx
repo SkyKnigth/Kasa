@@ -1,13 +1,24 @@
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import logements from "../datas/logements.json";
 import Carousel from "../components/Carousel";
 import Collapse from "../components/Collapse";
-import "../styles/Logement.css";
+import "../styles/Logement.scss";
+
 
 const Logement = () => {
   const { id } = useParams();
-  const logement = logements.find((item) => item.id === id);
+  const [logement, setLogement] = useState(null);
 
+  useEffect(() => {
+    fetch("../datas/logements.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const foundLogement = data.find((logement) => logement.id === id);
+        setLogement(foundLogement);
+      });
+  }, [id]);
+
+  
   if (!logement) return <p>Logement non trouvé</p>;
 
   return (
