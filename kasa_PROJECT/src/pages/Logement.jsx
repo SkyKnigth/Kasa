@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Carousel from "../components/Carousel";
-import Collapse from "../components/Collapse";
+import Carousel from "../components/carousel/Carousel";
+import Collapse from "../components/collapse/Collapse";
 import "../styles/Logement.scss";
 
 

@@ -3,8 +3,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Logement from "./pages/Logement";
 import NotFound from "./pages/NotFound";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
