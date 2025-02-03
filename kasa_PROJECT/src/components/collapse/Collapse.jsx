@@ -13,7 +13,12 @@ const Collapse = ({ title, content }) => {
           <i className={`fas ${isOpen ? "fa-chevron-up" : "fa-chevron-down"}`} />
         </button>
       </div>
-      {isOpen && <div className="collapse-content">{content}</div>}
+      {isOpen && <div className="collapse-content"> 
+        {Array.isArray(content) ? content.map((text,index)=>(
+          <p key={index}>{text}</p>
+        )):content}
+        </div>}
+      
     </div>
   );
 };
