@@ -5,6 +5,7 @@ import "./Card.scss";
 const Card = ({ id, title, cover }) => (
   <Link to={`/logement/${id}`} className="card">
     <img src={cover} alt={title} className="card-image" />
+    <div className="overlay"></div>
     <h3 className="card-title">{title}</h3>
   </Link>
 );

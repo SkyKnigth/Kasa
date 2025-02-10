@@ -3,14 +3,19 @@
     margin-top: 5px;
   }
   
-  /*.not-found h1 {}*/
+  .not-found h1 {
+    width: 597px;
+    font-size: 50px;
+
+
+
+  }
   
   .not-found-link {
     margin-top: 2px;
     display: inline-block;
     padding: 2px 3px;
-    background-color: #ff6060;
-    color: white;
+    color: #ff6060;
     border-radius: 4px;
   }
   

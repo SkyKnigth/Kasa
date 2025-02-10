@@ -34,9 +34,12 @@ const Carousel = ({ pictures }) => {
           ❯
         </button>
       )}
-      <div className="carousel-indicator">
+     
+      {pictures.length > 1 && (
+        <div className="carousel-indicator">
         {currentIndex + 1}/{pictures.length}
       </div>
+      )}
     </div>
   );
 };

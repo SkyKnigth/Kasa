@@ -5,7 +5,7 @@ export default function Banner({image,title}) {
   return (
     <div className="banner">
         <img src={image} alt="image de la bannière"/>
-      <h2>{title}</h2>
+      <h1>{title}</h1>
     </div>
   )
   

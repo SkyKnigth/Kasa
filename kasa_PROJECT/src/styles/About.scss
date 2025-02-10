@@ -1,0 +1,23 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 223px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 10px; 
+    }
+}
+
+

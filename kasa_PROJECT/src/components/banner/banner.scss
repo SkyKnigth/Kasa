@@ -1,11 +1,21 @@
 .banner {
-    background-color: #fff;
-    text-align: center;
-    padding: 6px;
+    background-color: #ffff;
     position: relative;
-    img{
-        width: 100%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 
+    img {
+        width: 100%;
     }
-    
-  }
+
+    h1 {
+        position: absolute;
+        font-size: 32px;
+        color: white;
+        text-align: center;
+    }
+}
