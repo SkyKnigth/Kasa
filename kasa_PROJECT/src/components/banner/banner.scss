@@ -2,14 +2,20 @@
     background-color: #ffff;
     position: relative;
     text-align: center;
-    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 4%; 
+    
+
 
     img {
         width: 100%;
+        object-fit: cover; 
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border-radius: 20px;
     }
 
     h1 {
@@ -17,5 +23,7 @@
         font-size: 32px;
         color: white;
         text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
 }
+

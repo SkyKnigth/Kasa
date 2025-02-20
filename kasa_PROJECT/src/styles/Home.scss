@@ -8,8 +8,8 @@
     display: grid;
     background-color: #F6F6F6;
     border-radius: 25px;
-    padding: 40px 0 0 40px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 40px 40px 40px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
   }
   
