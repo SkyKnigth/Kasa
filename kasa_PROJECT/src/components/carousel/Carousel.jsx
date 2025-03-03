@@ -1,6 +1,8 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import "./Carousel.scss";
+import FlecheD from "../../assets/flecheDroite.png"
+import FlecheG from "../../assets/flecheGauche.png"
 
 const Carousel = ({ pictures }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,7 +23,7 @@ const Carousel = ({ pictures }) => {
     <div className="carousel">
       {pictures.length > 1 && (
         <button className="carousel-button prev" onClick={handlePrev}>
-          ❮
+          <img src={FlecheG} alt="fleche gauche"/> 
         </button>
       )}
       <img
@@ -31,7 +33,7 @@ const Carousel = ({ pictures }) => {
       />
       {pictures.length > 1 && (
         <button className="carousel-button next" onClick={handleNext}>
-          ❯
+          <img src={FlecheD} alt="fleche droite"/> 
         </button>
       )}
      

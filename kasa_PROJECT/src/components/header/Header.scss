@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4% 4% 0% 4%;
+  padding: 2% 4% 0% 4%;
   width: 100%;
   box-sizing: border-box;
 
 }
 
 .logo {
-  width: 20%;
+  width: 12%;
 }
 
 .nav {
@@ -28,4 +28,7 @@
 .nav-link:hover {
   text-decoration: underline;
 }
-  
+
+.active-link {
+  text-decoration: underline;  
+}

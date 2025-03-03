@@ -1,2 +1,45 @@
+.logement{
+    padding: 2% 4% 4% 4%;
+}
+.logement h1 {
+    font-size: 26px; 
+    font-weight: 500; 
+    color: #FF6060; 
+    text-align: left; 
+    margin: 10PX 0 0 0;
+  }
 
+.logement p{
+    color: black;
+    margin: 0;
+}
+
+.star {
+    color: #E3E3E3;
+    font-size: 20px;
+    margin-right: 5px;
+  }
   
+  .star.active {
+    color: #FF6060;
+  }
+
+  .logement-tags {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px;
+  }
+  
+  .logement-tag {
+    background-color: #FF6060; /* Fond rouge */
+    color: white;
+    padding: 3px 10px; /* Réduit l'espacement interne */
+    border-radius: 12px; 
+    font-size: 12px; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px; 
+
+  }

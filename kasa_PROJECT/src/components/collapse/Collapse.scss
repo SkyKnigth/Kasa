@@ -12,19 +12,23 @@
     background-color: #FF6060;
     padding: 2px 5px;
     cursor: pointer;
+      h3{
+        font-size: 18px;
+
+      }
   }
   
   .collapse-content {
     padding: 3px;
     color: black;
-    background-color: #f7f7f7;
+    background-color: #FFFFFF;
     padding: 20px;
   }
   
   .collapse-button {
     background: none;
     border: none;
-    color: #fff;
+    color: #ffffff;
     font-size: 1.2rem;
     cursor: pointer;
   }
