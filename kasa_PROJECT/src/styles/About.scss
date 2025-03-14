@@ -8,6 +8,21 @@
     .content{
         width: 80%;
     }
+
+    .collapse {
+        margin-bottom: 20px; 
+    }
     
 }
+
+@media screen and (max-width: 600px){
+    .about-page {
+        .content{
+            width: 100%;
+        }    
+    }
+  } 
+  @media screen and (min-width: 601px) and (max-width: 1024px) { 
+   
+  }
 
