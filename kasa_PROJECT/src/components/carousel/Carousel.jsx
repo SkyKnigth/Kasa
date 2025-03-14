@@ -1,8 +1,8 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import "./Carousel.scss";
-import FlecheD from "../../assets/flecheDroite.png"
-import FlecheG from "../../assets/flecheGauche.png"
+import FlecheD from "../../assets/flecheDroite.png";
+import FlecheG from "../../assets/flecheGauche.png";
 
 const Carousel = ({ pictures }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

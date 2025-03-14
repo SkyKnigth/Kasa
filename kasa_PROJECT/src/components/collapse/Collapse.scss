@@ -1,8 +1,8 @@
 .collapse {
-    margin: 1%;
     border: 1px solid #f7f7f7;
     border-radius: 5px;
     overflow: hidden;
+    width: 100%;
   }
   
   .collapse-header {
@@ -23,7 +23,10 @@
     color: black;
     background-color: #FFFFFF;
     padding: 20px;
-  }
+    ul{
+      list-style: none;
+    }
+      }
   
   .collapse-button {
     background: none;
