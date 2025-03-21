@@ -97,4 +97,58 @@
 }
   
 
+@media screen and (max-width: 600px) { 
+    .logement {
+        padding: 5%;
+    }
 
+    .logement h1 {
+        font-size: 22px; 
+    }
+
+    .logement h2 {
+        font-size: 16px; 
+    }
+
+    .logement-header {
+        flex-direction: column; 
+        align-items: flex-start;
+        margin-top: 0px;
+    }
+
+    .logement-host-container {
+        flex-direction: row-reverse; 
+        align-items: center;
+        width: 100%;
+        gap: 100px;
+
+    }
+
+    .logement-host {
+        align-items: center;
+    }
+
+    .logement-host-img {
+        width: 40px; 
+        height: 40px;
+    }
+
+    .logement-rating {
+        margin-top: 5px;
+    }
+
+    .star {
+        font-size: 18px; 
+    }
+
+    .information {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 0%;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1024px) { 
+    
+  }
+  

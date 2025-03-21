@@ -25,11 +25,11 @@
 }
   
 .carousel-button.prev {
-left: 10px;
+left: -10px;   
 }
   
 .carousel-button.next {
-  right: 10px;
+  right: -10px;
 }
 
 .carousel-indicator {
@@ -45,14 +45,22 @@ left: 10px;
 }
 
 @media screen and (max-width: 600px){
-
-  .carousel-button.prev{
-    img{font-size: 20px;
-    }
-      
-  .carousel-button.next {
-    right: 10px;
+  .carousel{
+    height: 0%;
   }
+  
+  .carousel-image {
+    height: 250px;
+  }
+  .carousel-indicator {
+    display: none;
+  }
+
+  .carousel-button.prev img{
+    width: 30%;
+  }
+  .carousel-button.next img{
+    width: 30%;
   }
 } 
 @media screen and (min-width: 601px) and (max-width: 1024px) { 

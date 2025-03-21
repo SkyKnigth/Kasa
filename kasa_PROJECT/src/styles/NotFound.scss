@@ -30,3 +30,26 @@
   }
 
 }
+
+@media screen and (max-width: 600px) {
+  .not-found {
+    padding: 30% 5%; 
+  }
+
+  .not-found h1 {
+      font-size: 120px; 
+      margin-bottom: 50px; 
+  }
+
+  .not-found p {
+    font-size: 18px;
+  }
+
+  .not-found-link {
+    font-size: 14px; 
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) { 
+ 
+}
