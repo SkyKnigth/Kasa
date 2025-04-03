@@ -5,7 +5,6 @@ import "../styles/NotFound.scss";
 const NotFound = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
 
-  // Met à jour l'état si la taille de l'écran change
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 600);
     window.addEventListener("resize", handleResize);
