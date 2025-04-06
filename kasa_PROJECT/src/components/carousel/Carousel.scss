@@ -18,7 +18,7 @@
   transform: translateY(-50%);
   color: white;
   border: none;
-  padding: 10px;
+  padding: 25px;
   cursor: pointer;
   z-index: 1;
   background-color: transparent;
@@ -51,6 +51,10 @@ left: -10px;
   
   .carousel-image {
     height: 250px;
+  }
+
+  .carousel-button {
+    padding: 10px;
   }
   .carousel-indicator {
     display: none;
